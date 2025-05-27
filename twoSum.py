@@ -1,14 +1,5 @@
-"""
-LeetCode.py contain
-"""
-
-
 class LeetCode:
-    def isPalindrome(self, x: int) -> bool:
-        x = str(x)
-        if x[::-1] == x:
-            return True
-        return False
+    pass
 
     def twoSum(self, nums: list, target: int) -> list:
         for i in range(len(nums)):
